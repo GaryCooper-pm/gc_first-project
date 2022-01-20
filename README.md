@@ -4,6 +4,14 @@ Welcome to my first Code Institute diploma project.
 
 I have left a few of the important commands in here to help remind me whilst working through the project.
 
+# Introduction
+For my first project I have decided to re-design an existing website for the Manx Tri Club.
+
+## Overview
+The website will be a place where existing and prospective club members can come and keep up to date with upcoming events, training sessions and social activities.  They will also be able to complete a contact form to recieve further information on the club.
+
+---
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -22,7 +30,7 @@ Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-** As at 17 December 2021 - I have not used Heroku but will leave this here for future reference **
+### ** As at 17 December 2021 - I have not used Heroku but will leave this here for future reference **
 To log into the Heroku toolbelt CLI:
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
