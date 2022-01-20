@@ -12,6 +12,73 @@ The website will be a place where existing and prospective club members can come
 
 ---
 
+# TABLE OF CONTENT
+1. [USER STORY](#user-story)
+2. [STRUCTURE](#structure)
+3. [DESIGN](#design)
+4. [TECHNOLOGIES USED](#technologies-used)
+5. [TESTING](testing)
+6. [BUGS AND PROBLEMS](#bugs-and-problems)
+7. [FEATURES](#features)
+8. [FUTURE FEATURES](#features-I-would-like-to-implement)
+9. [DEPLOYMENT](#deployment)
+10. [CREDITS AND ACKNOWLEDGEMENT](#credits-and-acknowledgement)
+
+# USER STORY
+### Visitor to the website
+* I want to have a good idea of what the website is about from the home page.
+* I want easy navigation throughout the website.
+* I want to be able to obtain further information about the website and its purpose.
+* I want to read more about the individual disciplines of triathlon.
+* I want to find out what events are being run.
+* I want to find out about any training sessions or social activities are being held.
+
+# STRUCTURE
+
+
+# DESIGN
+## Typography
+
+## Color Palettes
+
+## Icons/Images
+#### Icons used throughout the project are from [FontAwesome](https://fontawesome.com/)
+
+
+# TECHNOLOGIES USED
+## HTML
+### Each page was built using HTML5.
+
+## CSS
+### The styling, layout and media queries were done using CSS.
+
+## Development Environment
+* [Gitpod](https://gitpod.io): The online IDE I used to write my code in.
+* [Github](https://github.com): My repository is housed here.
+* I used Google Chrome on a Windows PC for all my work.
+
+
+# TESTING
+
+
+# BUGS AND PROBLEMS
+
+
+# FEATURES
+
+
+# FUTURE FEATURES
+## Future feature and development
+
+
+# DEPLOYMENT
+
+
+# CREDITS AND ACKNOWLEDGEMENT
+
+---
+
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -30,16 +97,6 @@ Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-### ** As at 17 December 2021 - I have not used Heroku but will leave this here for future reference **
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ------
 
