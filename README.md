@@ -76,6 +76,8 @@ The website will be a place where existing and prospective club members can come
 
 # CREDITS AND ACKNOWLEDGEMENT
 
+Inspiration for the project was taken from the Code Institure's "Love Running" project.
+
 [Manx Tri Club](https://manxtriclub.com/): Some of the content (contact details, event dates, membership details etc.) for the project were extracted from the existing Manx Tri Club website.
 
 [Header Color Gradient](https://www.w3schools.com/colors/colors_gradient.asp): Header gradient created using the W3S webite.
