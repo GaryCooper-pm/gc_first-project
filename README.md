@@ -1,4 +1,4 @@
-![pixelmixel logo](https://static.wixstatic.com/media/723d04_eced08187f5b4d75bff4e701a3d69cce~mv2.png/v1/fill/w_93,h_95,al_c,q_85,usm_0.66_1.00_0.01/pixelmixel_email_logo.webp)
+![pixelmixel logo](assets/README_images/pixelmixel.png "Pixel Mixel Logo")
 
 Welcome to my first Code Institute diploma project.
 
@@ -37,20 +37,26 @@ The website will be a place where existing and prospective club members can come
 # STRUCTURE
 ## HEADER
 
+![Header](assets/README_images/header.JPG "Header")
 
 ## NAVIGATION
 
+![Navigation](assets/README_images/navbar.JPG "Navigation Bar")
 
 ## MAIN CONTENT
 
 
 ## DISCIPLINE DETAILS
 
-![Discipline Details](assets/README_images/discipline_details.JPG)
+![Discipline Details](assets/README_images/discipline_details.JPG "Discipline Details")
 
 ## EVENT DATES
 
-![Event Details](assets/README_images/event_details.JPG)
+![Event Details](assets/README_images/event_details.JPG "Event Details")
+
+## CONTACT FORM
+
+![Contact Form](assets/README_images/contact_form.JPG "Contact Form")
 
 # DESIGN
 ## Typography
@@ -66,13 +72,13 @@ I chose the following fonts from [Google Fonts](https://fonts.google.com/) as th
 I kept the colors limited so as to avoid eye strain for the user.
 
 
-![92a8d1](assets/README_images/color_92a8d1.jpg "#92a8d1")
+![92a8d1](assets/README_images/color1.JPG "#92a8d1")
 <p>&nbsp;</p>
 
-![7a7a7a](assets/README_images/color_7a7a7a.jpg "#7a7a7a")
+![7a7a7a](assets/README_images/color2.JPG "#7a7a7a")
 <p>&nbsp;</p>
 
-![88b04b](assets/README_images/color_88b04b.jpg "#88b04b")
+![88b04b](assets/README_images/color3.JPG "#88b04b")
 <p>&nbsp;</p>
 
 Typography colors throughout the site were kept to;
