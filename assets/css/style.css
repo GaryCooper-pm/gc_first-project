@@ -42,6 +42,8 @@
     width: 250px;
 }
 
+/* content styling */
+
 body {
     width: 100%;
     background-color: #ffffff;
@@ -54,6 +56,11 @@ h1 {
 
 h2 {
     font-size: 500%;
+    color: #ffffff;
+}
+
+.table-h3 {
+    font-weight: 600;
     color: #ffffff;
 }
 
@@ -72,6 +79,7 @@ h2 {
 .column1 {
     background-color: #92a8d1;
     width: 31.3%;
+    min-height: 425px;
     float: left;
     margin: 1%;
 }
@@ -79,6 +87,7 @@ h2 {
 .column2 {
     background-color: #7a7a7a;
     width: 31.3%;
+    min-height: 425px;
     float: left;
     margin: 1%;
 }
@@ -86,6 +95,7 @@ h2 {
 .column3 {
     background-color: #88B04B;
     width: 31.3%;
+    min-height: 425px;
     float: left;
     margin: 1%;
     margin-right: 0%;
@@ -144,7 +154,7 @@ li {
     margin-bottom: 10px;
 }
 
-/* Form */
+/* contact form */
 
 .form-section {
     clear: left;
@@ -216,7 +226,7 @@ input[type="radio"] {
 }
 
 .join-button:hover {
-    margin-top: 30px auto;
+    margin-top: 30px;
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;

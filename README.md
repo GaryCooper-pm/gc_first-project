@@ -17,7 +17,7 @@ The website will be a place where existing and prospective club members can come
 2. [STRUCTURE](#structure)
 3. [DESIGN](#design)
 4. [TECHNOLOGIES USED](#technologies-used)
-5. [TESTING](testing)
+5. [TESTING](#testing)
 6. [BUGS AND PROBLEMS](#bugs-and-problems)
 7. [FEATURES](#features)
 8. [FUTURE FEATURES](#features-I-would-like-to-implement)
@@ -108,6 +108,26 @@ and
 
 # TESTING
 
+## Passed my html codes through [W3C Markup Validator](https://validator.w3.org/)
+
+* Index/Home page _index.html_
+
+    &check; Document checking completed with no errors or warnings to show.
+
+* About page _about.html_
+
+    &check; Document checking completed with no errors or warnings to show.
+
+* Contact page _contact.html_
+
+    &check; Document checking completed with no errors or warnings to show.
+
+
+## Passed my CSS codes through [W3C CSS Validator](https://validator.w3.org/)
+
+* style.css
+
+    &check; Document checking completed with no errors or warnings to show.
 
 # BUGS AND PROBLEMS
 
@@ -123,6 +143,10 @@ and
 
 
 # CREDITS AND ACKNOWLEDGEMENT
+
+A huge thank you to my [Code Institue](https://codeinstitute.net/global/) mentor Brian O'Hare for his guidance and support.
+
+My business partner Damian for his support and belief in me.
 
 Inspiration for the project was taken from the Code Institure's "Love Running" project.
 
