@@ -12,6 +12,10 @@ The website will be a place where existing and prospective club members can come
 
 ---
 
+![Am I Responsive](assets/README_images/amiresponsive.JPG)
+
+---
+
 # TABLE OF CONTENT
 1. [USER STORY](#user-story)
 2. [STRUCTURE](#structure)
@@ -121,6 +125,9 @@ Typography colors throughout the site were kept to;
 * style.css
 
     &check; Document checking completed with no errors or warnings to show.
+
+
+## Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
 
 # BUGS AND PROBLEMS
 
