@@ -72,22 +72,15 @@ I chose the following fonts from [Google Fonts](https://fonts.google.com/) as th
 I kept the colors limited so as to avoid eye strain for the user.
 
 
-![92a8d1](assets/README_images/color1.JPG "#92a8d1")
+![92a8d1](assets/README_images/color1.JPG "#92a8d1") ![7a7a7a](assets/README_images/color2.JPG "#7a7a7a") ![88b04b](assets/README_images/color3.JPG "#88b04b")
 <p>&nbsp;</p>
 
-![7a7a7a](assets/README_images/color2.JPG "#7a7a7a")
-<p>&nbsp;</p>
-
-![88b04b](assets/README_images/color3.JPG "#88b04b")
-<p>&nbsp;</p>
 
 Typography colors throughout the site were kept to;
 
-#3a3a3a Faux-Black Olive
+![3a3a3a](assets/README_images/color4.JPG "#3a3a3a") ![fafafa](assets/README_images/color5.JPG "#fafafa")
+<p>&nbsp;</p>
 
-and
-
-#fafafa Faux-Guyabano
 
 ## Icons/Images
 #### Icons used throughout the project are from [FontAwesome](https://fontawesome.com/)
