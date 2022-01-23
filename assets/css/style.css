@@ -44,28 +44,14 @@
 
 /* content styling */
 
+#header {
+    background: linear-gradient(to bottom, #3a3a3a 0%, #ffffff 100%);
+}
+
 body {
     width: 100%;
     background-color: #ffffff;
     margin: 0 auto;
-}
-
-h1 {
-    letter-spacing: 3px;
-}
-
-h2 {
-    font-size: 500%;
-    color: #ffffff;
-}
-
-.table-h3 {
-    font-weight: 600;
-    color: #ffffff;
-}
-
-#header {
-    background: linear-gradient(to bottom, #3a3a3a 0%, #ffffff 100%);
 }
 
 #content {
@@ -79,6 +65,10 @@ h2 {
 #feature {
     height: 100px;
     margin-bottom: 10px;
+}
+
+#membership-feature {
+    height: 200px;
 }
 
 .article {
@@ -114,6 +104,47 @@ h2 {
 li {
     display: inline;
     padding: 10px ;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 500%;
+    color: #ffffff;
+}
+
+.table-h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* membership table styling */
+
+#membership-table {
+    border-collapse: collapse;
+}
+
+#membership-table td, #membership-table th {
+    border: 1px solid #7a7a7a;
+    padding: 8px;
+}
+
+#membership-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.membership {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.membership-table-th {
+    text-align: center;
+    font-weight: 600;
+    color: #3a3a3a;
 }
 
 /* event dates styling */
@@ -244,7 +275,7 @@ input[type="radio"] {
 @media screen and (max-width: 1200px) {
 
     #feature {
-        width: 100%;
+        width: auto;
         height: 150px;
         margin-bottom: 10px;
     }
@@ -291,9 +322,6 @@ input[type="radio"] {
 @media screen and (max-width: 950px) {
 
     #nav {
-        clear: left;
-        float: left;
-        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
