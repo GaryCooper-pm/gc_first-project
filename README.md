@@ -264,4 +264,6 @@ Inspiration and snippets of CSS for the project were taken from the Code Institu
 
 [Header Color Gradient](https://www.w3schools.com/colors/colors_gradient.asp): Header gradient created using the W3S webite.
 
+[Arial Photograph](http://www.island-images.co.uk/Aerial/Aerial%202015/150919102407.html): Event Details picture background courtesy of Jon Wornham.
+
 ---
