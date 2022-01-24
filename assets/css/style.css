@@ -120,6 +120,13 @@ h2 {
     color: #ffffff;
 }
 
+table {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* membership table styling */
 
 #membership-table {
