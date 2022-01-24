@@ -108,10 +108,10 @@ h1 {
     letter-spacing: 3px;
 }
 
-h2 {
+.column1 i, .column2 i, .column3 i {
     padding: 0;
     margin: 10px;
-    font-size: 300%;
+    font-size: 325%;
     color: #ffffff;
 }
 
@@ -196,7 +196,12 @@ table {
 
 .signup-form i {
     color: #fafafa;
+    padding: 0 5px;
     margin-bottom: 5px;
+    font-size: 250%;
+}
+.signup-form h3 {
+    color: #fafafa;
     font-size: 150%;
 }
 
@@ -218,7 +223,6 @@ table {
     justify-content: space-evenly;
     background-color: #47B0FF;
     height: 550px;
-   
 }
 
 input[type=text],
@@ -484,6 +488,13 @@ input[type=email] {
 
 /* for medium screen sizes from 410px wide and down */
 @media screen and (max-width: 410px) {
+    #events .events-h2 {
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        font-size: 150%;
+        color: #fafafa;
+    }
+    
     .radio-pair {
         display: inline-block;
         align-items: center;
