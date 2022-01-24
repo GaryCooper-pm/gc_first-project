@@ -27,10 +27,9 @@ The website will be a place where existing and prospective club members can come
 4. [TECHNOLOGIES USED](#technologies-used)
 5. [TESTING](#testing)
 6. [BUGS AND PROBLEMS](#bugs-and-problems)
-7. [FEATURES](#features)
-8. [FUTURE FEATURES](#features-I-would-like-to-implement)
-9. [DEPLOYMENT](#deployment)
-10. [CREDITS AND ACKNOWLEDGEMENT](#credits-and-acknowledgement)
+7. [FUTURE FEATURES](#features-I-would-like-to-implement)
+8. [DEPLOYMENT](#deployment)
+9. [CREDITS AND ACKNOWLEDGEMENT](#credits-and-acknowledgement)
 
 # USER STORY
 ### Visitor to the website
