@@ -23,11 +23,11 @@ The website will be a place where existing and prospective club members can come
 # TABLE OF CONTENT
 1. [USER STORY](#user-story)
 2. [STRUCTURE](#structure)
-3. [DESIGN](#design)
-4. [TECHNOLOGIES USED](#technologies-used)
-5. [TESTING](#testing)
-6. [BUGS AND PROBLEMS](#bugs-and-problems)
-7. [FUTURE FEATURES](#features-I-would-like-to-implement)
+3. [FUTURE FEATURES](#future-features)
+4. [DESIGN](#design)
+5. [TECHNOLOGIES USED](#technologies-used)
+6. [TESTING](#testing)
+7. [BUGS AND PROBLEMS](#bugs-and-problems)
 8. [DEPLOYMENT](#deployment)
 9. [CREDITS AND ACKNOWLEDGEMENT](#credits-and-acknowledgement)
 
