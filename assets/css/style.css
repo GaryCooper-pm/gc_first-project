@@ -129,6 +129,16 @@ table {
 
 /* membership table styling */
 
+.membership {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#membership-feature p {
+    padding-bottom: 0;
+}
+
 #membership-table {
     border-collapse: collapse;
 }
@@ -141,12 +151,6 @@ table {
 
 #membership-table tr:nth-child(even) {
     background-color: #f2f2f2;
-}
-
-.membership {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
 }
 
 .membership-table-th {
