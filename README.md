@@ -239,6 +239,22 @@ This was resolved by re-styling the entire form and by using flex in my style.cs
 }
 ```
 
+## PROGRAMS USED
+
+* GITPOD
+  * The IDE used to code this website
+* GIT
+  * For version control, commiting and pushing to github
+* GITHUB
+  * Used to store repositories, files and images pushed from gitpod
+* CHROME Developer tools
+  * For checking compatibilty, troubleshooting and editing code
+* Am I Responsive
+  * Used to test responsiveness of the website at different screen sizes
+* FONTAWESOME
+  * Used for the social media link icon in the footer of each page and triathlon icons on the discipline page and contact form
+
+
 # DEPLOYMENT
 
 ## Github
@@ -247,8 +263,8 @@ This was resolved by re-styling the entire form and by using flex in my style.cs
     * Select Code Institute Full Template
     * Name and create the repository
     * On the repository page, CLICK the green GITPOD button to launch gitpod
-    * Commands used for the project;
-        * `git add .` to add files to stage
+    * Commands used for version control during the project;
+        * `git add "example file name"` to add files to stage
         * `git commit -m "commit message"`
         * `git push` to puch changes through to main in github
 <p>&nbsp;</p>
@@ -266,6 +282,19 @@ This was resolved by re-styling the entire form and by using flex in my style.cs
         * about.html
         * contact.html
         * README.md
+
+
+### This site was deployed using GitHub Pages with the following steps:
+
+1. Click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages`
+3. There will be a message box saying "Check it out here" Click on the link to take you to the next page
+4. Here you will be greated with a form, Choose the repository `gc_first-project`
+5. Choose the branch in the drop down box, in this case `MAIN`
+6. Choose the directory in the next drop down box, in this case `Root`
+7. Then click `Save`
+8. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+
 
 
 # CREDITS AND ACKNOWLEDGEMENT
