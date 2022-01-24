@@ -26,7 +26,6 @@
     </div>
 </header>
 <!-- contact form -->
-<div id="form-center">
 <section class="form-section">
     <form class="signup-form" action="#" method="post">
         <h3>Contact Us</h3>
@@ -34,22 +33,29 @@
         <input class="text-input" id="fname" type="text" name="first_name" placeholder="First Name" required />
         <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last Name" required />
         <input class="text-input" id="email" type="email" name="email_address" placeholder="Email" required />
-        <input class="number-input" id="mobile" type="tel" name="mobile_number" placeholder="Mobile Number" required />
-        <input class="text-input" id="message" type="text" name="message" placeholder="Write something.." required />
+        <input class="number-input" id="mobile" type="number" name="mobile_number" placeholder="Mobile Number"
+            required />
+        <input class="text-input" id="message" type="text" name="message" placeholder="Write something.."
+            required />
         <br>
         <p>What's your favourite Discipline?</p>
         <br>
-        <label for="swim">Swim</label>
-        <input id="swim" type="radio" name="preference" value="swim">
-        <label for="cycle">Cycle</label>
-        <input id="cycle" type="radio" name="preference" value="cycle">
-        <label for="run">Run</label>
-        <input id="run" type="radio" name="preference" value="run">
+        <div class="radio-pair">
+            <label for="swim">Swim</label>
+            <input id="swim" type="radio" name="preference" value="swim">
+        </div>
+        <div class="radio-pair">
+            <label for="cycle">Cycle</label>
+            <input id="cycle" type="radio" name="preference" value="cycle">
+        </div>
+        <div class="radio-pair">
+            <label for="run">Run</label>
+            <input id="run" type="radio" name="preference" value="run">
+        </div>
         <br>
-        <input class="join-button" type="submit" value="SUBMIT">       
+        <input class="join-button" type="submit" value="SUBMIT">
     </form>
 </section>
-</div>
 <!-- footer -->
 <footer>
     <div id="footer">
