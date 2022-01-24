@@ -93,7 +93,7 @@ Event details
 ![Contact Form](docs/images/contact_form.JPG "Contact Form")
 
 
-## Future feature and development
+# FUTURE FEATURES
 * I would like to expand on the content of the site with input and content provided by the club committee members
 * I would like to integrate an event entry form
 * I would like to implement a members only page where they can download course maps
