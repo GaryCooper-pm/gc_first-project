@@ -41,7 +41,7 @@ The website will be a place where existing and prospective club members can come
 * I want to find out about any training sessions or social activities are being held.
 
 
-# STRUCTURE OF EACH PAGE
+# STRUCTURE
 ## Header
 * A clean and simple header using a subtle gradient for style and contains the club logo centered on the page
 
