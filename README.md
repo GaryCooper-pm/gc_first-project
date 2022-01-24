@@ -1,13 +1,12 @@
-![pixelmixel logo](assets/README_images/pixelmixel.png "Pixel Mixel Logo")
+![pixelmixel logo](docs/images/pixelmixel.png "Pixel Mixel Logo")
 
 Welcome to my first Code Institute diploma project.
 
 I have left a few of the important commands in here to help remind me whilst working through the project.
 
-# Introduction
+# Introduction and Overview
 For my first project I have decided to re-design in part, an existing website for the Manx Tri Club.
 
-## Overview
 The website will be a place where existing and prospective club members can come and keep up to date with upcoming events, training sessions and social activities.  They will also be able to complete a contact form to recieve further information on the club.
 
 
@@ -17,7 +16,7 @@ The website will be a place where existing and prospective club members can come
 
 ---
 
-![Am I Responsive](assets/README_images/amiresponsive.JPG)
+![Am I Responsive](docs/images/amiresponsive.JPG)
 
 ---
 
@@ -43,32 +42,65 @@ The website will be a place where existing and prospective club members can come
 * I want to find out about any training sessions or social activities are being held.
 
 
-# STRUCTURE
-## HEADER
+# STRUCTURE OF EACH PAGE
+## Header
+* A clean and simple header using a subtle gradient for style and contains the club logo centered on the page
 
-![Header](assets/README_images/header.JPG "Header")
+![Header](docs/images/header.JPG "Header")
 
-## NAVIGATION
+## Navigation
+* A clean simple text navigation menu, centered on the page with styling to show active page and mouse-over state changes was used.
+* The styling for an active page is a simple underline.
 
-![Navigation](assets/README_images/navbar.JPG "Navigation Bar")
+![Navigation](docs/images/navbar.JPG "Navigation Bar")
 
-## MAIN CONTENT
+## Main Index page content
+* A brief welcome note and description of the website
+* An overview of the different triathlon distances split by discipline
+* A list of events being hosted by the club
+
+![Main Content](docs/images/maincontent.JPG "Main Content")
+
+## Footer
+* A clean simple footer containing copyright and Social Media icon with link.
+
+![Footer](docs/images/footer.JPG "Footer")
 
 
-## DISCIPLINE DETAILS
 
-![Discipline Details](assets/README_images/discipline_details.JPG "Discipline Details")
+Discipline details
+* The discipline details section consists of three columns each pertaining to a specific discipline of triathlon (swimming, cycling and running).
+* Each discipline further details the different distances and minimum age.
+    * The columns are styled through CSS to stack when the browser is re-sized.
+![Discipline Details](docs/images/discipline_details.JPG "Discipline Details")
 
-## EVENT DATES
+Event details
+* The event dates section displays the events across five columns over a background image.
+    * The columns are styled through CSS to stack when the browser is re-sized.
+![Event Details](docs/images/event_details.JPG "Event Details")
 
-![Event Details](assets/README_images/event_details.JPG "Event Details")
 
-## CONTACT FORM
+### About page
+* Brief details about the club
+* Details of the different membership options and prices
+* Details of the benefits of membership
 
-![Contact Form](assets/README_images/contact_form.JPG "Contact Form")
+![About page](docs/images/about.JPG "About Page")
+
+### Contact page
+* Simple styled contact form with mandatory fields and optional 'Favourite discipline' radio buttons
+* The contact form is a dummy form for the purpose of this project and submits to the https://formdump.codeinstitute.net form dump.
+
+![Contact Form](docs/images/contact_form.JPG "Contact Form")
+
+
+## Future feature and development
+* I would like to expand on the content of the site with input and content provided by the club committee members
+* I would like to integrate an event entry form
+* I would like to implement a members only page where they can download course maps
 
 # DESIGN
-## Typography
+### Typography
 I chose the following fonts from [Google Fonts](https://fonts.google.com/) as they are modern, clean and easy to read.
 
 
@@ -77,30 +109,31 @@ I chose the following fonts from [Google Fonts](https://fonts.google.com/) as th
 
 [Lato Light 300](https://fonts.google.com/specimen/Lato) 
 
-## Color Palettes
+### Color Palettes
 I kept the colors limited so as to avoid eye strain for the user.
 
 
-![92a8d1](assets/README_images/color1.JPG "#92a8d1") ![7a7a7a](assets/README_images/color2.JPG "#7a7a7a") ![88b04b](assets/README_images/color3.JPG "#88b04b")
+![92a8d1](docs/images/color1.JPG "#92a8d1") ![7a7a7a](docs/images/color2.JPG "#7a7a7a") ![88b04b](docs/images/color3.JPG "#88b04b")
 <p>&nbsp;</p>
 
 
 Typography colors throughout the site were kept to;
 
-![3a3a3a](assets/README_images/color4.JPG "#3a3a3a") ![fafafa](assets/README_images/color5.JPG "#fafafa")
+![3a3a3a](docs/images/color4.JPG "#3a3a3a") ![fafafa](docs/images/color5.JPG "#fafafa")
 <p>&nbsp;</p>
 
 
-## Icons/Images
-#### Icons used throughout the project are from [FontAwesome](https://fontawesome.com/)
+### Icons
+Icons used throughout the project are from [FontAwesome](https://fontawesome.com/)
 
 
 # TECHNOLOGIES USED
-## HTML
-### Each page was built using HTML5.
-
-## CSS
-### The styling, layout and media queries were done using CSS.
+* HTML
+    * Each page was built using HTML5.
+* CSS
+    * The styling, layout and media queries were done using CSS.
+* Adobe Photoshop
+    * The logo was edited to remove a white and blue background to create the png file used in the header.
 
 ## Development Environment
 * [Gitpod](https://gitpod.io): The online IDE I used to write my code in.
@@ -110,93 +143,102 @@ Typography colors throughout the site were kept to;
 
 # TESTING
 
-## Passed my html codes through [W3C Markup Validator](https://validator.w3.org/)
+### Passed my html codes through [W3C Markup Validator](https://validator.w3.org/)
 
 * Index/Home page _index.html_
 
-    &cross; Document checking completed with errors and only one warning
+    &check; Document checking completed with no errors or warnings to show
 
-    **Warning**
+[Index html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2Fgc_first-project%2Findex.html)
 
-    'Empty Heading' from line 36, column 13; to line 36, column 16;
-    ```bash
-    <h3><i class="fas fa-swimmer"></i><i class="fas fa-biking"></i><i class="fas fa-running"></i></h3>
-    ```
-    **Errors**
+![W3C Validation](docs/images/w3c_index_check.JPG "W3C HTML Validation")
 
-    Error 'Start tag h3 seen in table' from line 38, column 17; to line 39, column 37
-    ```bash
-    <tr>
-        <h3 class="table-h3">Sprint Distance</h3>    
-    ```
-
-    Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-    From line 38, column 17; to line 39, column 37
 
 * About page _about.html_
 
-    &check; Document checking completed with no errors or warnings to show.
+    &check; Document checking completed with no errors or warnings to show
+
+[About html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2Fgc_first-project%2Fabout.html)
+
+![W3C Validation](docs/images/w3c_about_check.JPG "W3C HTML Validation")
 
 * Contact page _contact.html_
 
-    &check; Document checking completed with no errors and only one warning
-    
-    **Warning**
-    
-    'Empty Heading' from line 33, column 9; to line 33, column 12;
-    ```bash
-    <h2><i class="fas fa-swimmer"></i></h2>
-    ```
+    &check; Document checking completed with no errors or warnings to show
+
+[Contact html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2Fgc_first-project%2Fcontact.html)
+
+![W3C Validation](docs/images/w3c_contact_check.JPG "W3C HTML Validation")
 
 
-## Passed my CSS codes through [W3C CSS Validator](https://validator.w3.org/)
+### Passed my CSS codes through JIGSAW [W3C CSS Validator](https://validator.w3.org/)
 
 * style.css
 
-    &check; Document checking completed with no errors or warnings to show.
+    &check; Document checking completed with no errors or warnings to show
+
+[Style css code pass](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarycooper-pm.github.io%2Fgc_first-project%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![W3C Validation](docs/images/w3c_style_check.JPG "W3C CSS Validation")
 
 
-## Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
+### Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
+
+![Am I Responsive](docs/images/amiresponsive.JPG)
+
+### Checked accessibility through [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+Index page
+
+![Index](docs/images/lighthouse_index.JPG)
+
+About page
+
+![About](docs/images/lighthouse_about.JPG)
+
+Contact page
+
+![Contact](docs/images/lighthouse_contact.JPG)
+
 
 # BUGS AND PROBLEMS
 
-## There is an issue with the Discipline section of the index.html when re-sizing the browser whereby a horizontal scroll bar appears.
-![Scroll Bar issue](assets/README_images/bug1.JPG)
+There was an issue with the Discipline section of the index.html when re-sizing the browser a horizontal scroll bar would appear.
+![Scroll Bar issue](docs/images/bug1.JPG)
 
+This was resolved by using flex in my media queries in the style.css
 
-## There is an issue where the Contact Form is not centering on the contact.html.
-![Contact Form Not Centering](assets/README_images/bug2.JPG)
+```bash
+#content {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+```
 
-# FEATURES
+There was an issue where the Contact Form was not centering on the contact.html.
+![Contact Form Not Centering](docs/images/bug2.JPG)
 
-## Header
-* Club logo centered on the page
+This was resolved by re-styling the entire form and by using flex in my style.css
 
-## Navigation
-* A clean simple text navigation menu, centered on the page with styling to show active page and mouse-over state changes was used.
+```bash
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-grow: 2;
+}
 
-
-## Home page
-* A brief overview of the different triathlon distances split by discipline
-* A list of events being hosted by the club
-
-
-## About page
-* Brief details about the club
-* Details of the different membership options and prices
-* Details of the benefits of membership
-
-
-## Contact page
-* Simple styled contact form with mandatory fields and optional 'Favourite discipline' radio buttons
-
-
-# FUTURE FEATURES
-## Future feature and development
-* I would like to expand on the content of the site with input and content provided by the club committee members
-* I would like to integrate an event entry form
-* I would like to implement a members only page where they can download course maps
-
+.form-section {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    background-color: #47B0FF;
+    height: 550px;
+}
+```
 
 # DEPLOYMENT
 
@@ -219,7 +261,8 @@ Typography colors throughout the site were kept to;
             * css folder (sub-folder of assets)
                 * style.css
             * images folder (sub-folder of assets)
-            * README_images folder (sub-folder of assets)
+        * docs folder
+            * images folder (sub-folder of docs for housing the README.md images)
         * index.html
         * about.html
         * contact.html
@@ -233,6 +276,8 @@ A huge thank you to my [Code Institue](https://codeinstitute.net/global/) mentor
 My wife Clare and daughters Grace and Emily for their patience and allowing me to work evenings and weekends on my project.
 
 My business partner Damian for his support and belief in me.
+
+[Chris Williams](https://github.com/Chr15w1986) for taking the time to call me and talk through some of the issues I was having, thanks Chris, I owe you a case!
 
 [Brad Traversy](https://gist.github.com/bradtraversy) for his invaluable [Markdown Cheat Sheet](https://gist.github.com/bradtraversy/547a7bbf35ffba1561706e161a50b05a)
 
@@ -260,9 +305,9 @@ Inspiration and snippets of CSS for the project were taken from the Code Institu
 }
 ```
 
-[Manx Tri Club](https://manxtriclub.com/): Some of the content (contact details, event dates, membership details etc.) for the project were extracted from the existing Manx Tri Club website.
+[Manx Tri Club](https://manxtriclub.com/): Some of the content (Logo, event dates, membership details) for the project were extracted from the existing Manx Tri Club website and Facebook page.
 
-[Header Color Gradient](https://www.w3schools.com/colors/colors_gradient.asp): Header gradient created using the W3S webite.
+[Header Color Gradient](https://www.w3schools.com/colors/colors_gradient.asp): Header gradient created using the W3C webite.
 
 [Arial Photograph](http://www.island-images.co.uk/Aerial/Aerial%202015/150919102407.html): Event Details picture background courtesy of Jon Wornham.
 
