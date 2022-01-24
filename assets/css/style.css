@@ -55,11 +55,7 @@ body {
 }
 
 #content {
-    overflow: auto;
-}
-
-#nav, #feature {
-    margin: 1%;
+    margin: 0 auto;
 }
 
 #feature {
@@ -79,7 +75,7 @@ body {
 .column1 {
     background-color: #92a8d1;
     width: 31.3%;
-    min-height: 425px;
+    min-height: 375px;
     float: left;
     margin: 1%;
 }
@@ -87,7 +83,7 @@ body {
 .column2 {
     background-color: #7a7a7a;
     width: 31.3%;
-    min-height: 425px;
+    min-height: 375px;
     float: left;
     margin: 1%;
 }
@@ -95,7 +91,7 @@ body {
 .column3 {
     background-color: #88B04B;
     width: 31.3%;
-    min-height: 425px;
+    min-height: 375px;
     float: left;
     margin: 1%;
     margin-right: 0%;
@@ -111,7 +107,9 @@ h1 {
 }
 
 h2 {
-    font-size: 500%;
+    padding: 0;
+    margin: 10px;
+    font-size: 300%;
     color: #ffffff;
 }
 
