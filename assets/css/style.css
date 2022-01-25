@@ -134,13 +134,17 @@ table {
 /* membership table styling */
 
 #membership {
-    display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
 
 #membership-feature p {
     padding-bottom: 0;
+}
+
+#membership-options {
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
 #membership-table {
