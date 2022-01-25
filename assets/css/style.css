@@ -74,6 +74,10 @@ body {
 
 /* discipline details styling */
 
+#disciplines {
+    width: 100%;
+}
+
 .column1 {
     background-color: #92a8d1;
     width: 31.3%;
@@ -294,6 +298,14 @@ input[type=email] {
     }
 
     #content {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #disciplines {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
