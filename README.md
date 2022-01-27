@@ -43,7 +43,7 @@ The website will be a place where existing and prospective club members can come
 
 # STRUCTURE
 ## Header
-* A clean and simple header using a subtle gradient for style and contains the club logo centered on the page
+* A clean and simple header using a subtle gradient for style and contains the club logo centered on the page.
 
 ![Header](docs/images/header.JPG "Header")
 
@@ -54,9 +54,9 @@ The website will be a place where existing and prospective club members can come
 ![Navigation](docs/images/navbar.JPG "Navigation Bar")
 
 ## Main Index page content
-* A brief welcome note and description of the website
-* An overview of the different triathlon distances split by discipline
-* A list of events being hosted by the club
+* A brief welcome note and description of the website.
+* An overview of the different triathlon distances split by discipline.
+* A list of events being hosted by the club.
 
 ![Main Content](docs/images/maincontent.JPG "Main Content")
 
@@ -80,23 +80,23 @@ Event details
 
 
 ### About page
-* Brief details about the club
-* Details of the different membership options and prices
-* Details of the benefits of membership
+* Brief details about the club.
+* Details of the different membership options and prices.
+* Details of the benefits of membership.
 
 ![About page](docs/images/about.JPG "About Page")
 
 ### Contact page
-* Simple styled contact form with mandatory fields and optional 'Favourite discipline' radio buttons
+* Simple styled contact form with mandatory fields and optional 'Favourite discipline' radio buttons.
 * The contact form is a dummy form for the purpose of this project and submits to the https://formdump.codeinstitute.net form dump.
 
 ![Contact Form](docs/images/contact_form.JPG "Contact Form")
 
 
 # FUTURE FEATURES
-* I would like to expand on the content of the site with input and content provided by the club committee members
-* I would like to integrate an event entry form
-* I would like to implement a members only page where they can download course maps
+* I would like to expand on the content of the site with input and content provided by the club committee members.
+* I would like to integrate an event entry form.
+* I would like to implement a members only page where they can download course maps.
 
 # DESIGN
 ### Typography
@@ -123,7 +123,7 @@ Typography colors throughout the site were kept to;
 
 
 ### Icons
-Icons used throughout the project are from [FontAwesome](https://fontawesome.com/)
+Icons used throughout the project are from [FontAwesome](https://fontawesome.com/).
 
 
 # TECHNOLOGIES USED
@@ -242,17 +242,17 @@ This was resolved by re-styling the entire form and by using flex in my style.cs
 ## PROGRAMS USED
 
 * GITPOD
-  * The IDE used to code this website
+  * The IDE used to code this website.
 * GIT
-  * For version control, commiting and pushing to github
+  * For version control, commiting and pushing to github.
 * GITHUB
-  * Used to store repositories, files and images pushed from gitpod
+  * Used to store repositories, files and images pushed from gitpod.
 * CHROME Developer tools
-  * For checking compatibilty, troubleshooting and editing code
+  * For checking compatibilty, troubleshooting and editing code.
 * Am I Responsive
-  * Used to test responsiveness of the website at different screen sizes
+  * Used to test responsiveness of the website at different screen sizes.
 * FONTAWESOME
-  * Used for the social media link icon in the footer of each page and triathlon icons on the discipline page and contact form
+  * Used for the social media link icon in the footer of each page and triathlon icons on the discipline page and contact form.
 
 
 # DEPLOYMENT
@@ -307,7 +307,7 @@ My business partner Damian for his support and belief in me.
 
 [Chris Williams](https://github.com/Chr15w1986) for taking the time to call me and talk through some of the issues I was having, thanks Chris, I owe you a case!
 
-[Brad Traversy](https://gist.github.com/bradtraversy) for his invaluable [Markdown Cheat Sheet](https://gist.github.com/bradtraversy/547a7bbf35ffba1561706e161a50b05a)
+[Brad Traversy](https://gist.github.com/bradtraversy) for his invaluable [Markdown Cheat Sheet](https://gist.github.com/bradtraversy/547a7bbf35ffba1561706e161a50b05a).
 
 Inspiration and snippets of CSS for the project were taken from the Code Institure's [Love Running](https://garycooper-pm.github.io/love-running/index.html) project.
 
