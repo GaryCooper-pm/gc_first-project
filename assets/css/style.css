@@ -60,7 +60,6 @@ body {
 
 #feature {
     height: 100px;
-    margin-bottom: 10px;
 }
 
 #membership-feature {
@@ -230,7 +229,7 @@ table {
     padding-top: 10px;
     justify-content: space-evenly;
     background-color: #47B0FF;
-    height: 550px;
+    height: 585px;
 }
 
 input[type=text],
@@ -298,7 +297,6 @@ input[type=email] {
 
     #feature {
         width: auto;
-        margin-bottom: 10px;
     }
 
     #content {
@@ -356,13 +354,11 @@ input[type=email] {
 @media screen and (max-width: 950px) {
 
     #nav {
-        margin-bottom: 20px;
         line-height: 25px;
     }
 
     #feature {
         height: 100px;
-        margin-bottom: 15px;
     }
 
     #content {
@@ -409,7 +405,7 @@ input[type=email] {
         padding-top: 10px;
         justify-content: space-evenly;
         background-color: #47B0FF;
-        height: 575px;
+        height: 585px;
     
     }
 }
@@ -419,11 +415,6 @@ input[type=email] {
     
     #feature {
         height: 100px;
-        margin-bottom: 15px;
-    }
-
-    p {
-        padding-bottom: 20px;
     }
 
     h1 {
@@ -435,7 +426,7 @@ input[type=email] {
         padding-top: 10px;
         justify-content: space-evenly;
         background-color: #47B0FF;
-        height: 575px;
+        height: 585px;
     }
 }
 
@@ -453,6 +444,10 @@ input[type=email] {
 
     h1 {
         font-size: 125%;
+    }
+
+    h2 {
+        font-size: 115%;
     }
 
     #feature p {
@@ -504,6 +499,11 @@ input[type=email] {
 
 /* for medium screen sizes from 410px wide and down */
 @media screen and (max-width: 410px) {
+    #feature {
+        height: 110px;
+        margin-bottom: 5px;
+    }
+
     #events .events-h2 {
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
@@ -532,10 +532,16 @@ input[type=email] {
 
 /* for medium screen sizes from 360px wide and down */
 @media screen and (max-width: 360px) {
+    #feature {
+        height: 110px;
+        margin-bottom: 5px;
+    }
+
     h1 {
         font-size: 95%;
         margin: 0;
     }
+
     #feature p {
         font-size: 95%;
         margin: 0;
@@ -546,7 +552,7 @@ input[type=email] {
         padding-top: 10px;
         justify-content: space-evenly;
         background-color: #47B0FF;
-        height: 575px;
+        height: 585px;
     }
 
     .radio-pair {
@@ -580,6 +586,15 @@ input[type=email] {
     }
 }
 
+/* for medium screen sizes from 353px wide and down */
+@media screen and (max-width: 353px) {
+    #nav {
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
+
 /* for medium screen sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
     #feature p {
@@ -592,7 +607,7 @@ input[type=email] {
         padding-top: 10px;
         justify-content: space-evenly;
         background-color: #47B0FF;
-        height: 575px;
+        height: 585px;
     }
 
     .radio-pair {
@@ -618,6 +633,38 @@ input[type=email] {
         margin-top: 5px;
         border-radius: 2px;
         padding: 10px 28px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #fafafa;
+        color: #47B0FF;
+        display: block;
+    }
+}
+
+/* for medium screen sizes from 268px wide and down */
+@media screen and (max-width: 268px) {
+    .radio-pair {
+        display: inline-block;
+        align-items: center;
+        margin: 0;
+        width: 70px;
+    }
+
+    .join-button {
+        margin: 5px auto;
+        border-radius: 2px;
+        padding: 5px 28px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #7a7a7a;
+        color: #fafafa;
+        display: block;
+    }
+    
+    .join-button:hover {
+        margin-top: 5px;
+        border-radius: 2px;
+        padding: 5px 28px;
         text-align: center;
         font-size: 100%;
         background-color: #fafafa;
