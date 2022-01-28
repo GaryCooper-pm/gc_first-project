@@ -133,6 +133,19 @@ Icons used throughout the project are from [FontAwesome](https://fontawesome.com
     * The styling, layout and media queries were done using CSS.
 * Adobe Photoshop
     * The logo was edited to remove a white and blue background to create the png file used in the header.
+* GITPOD
+  * The IDE used to code this website.
+* GIT
+  * For version control, commiting and pushing to github.
+* GITHUB
+  * Used to store repositories, files and images pushed from gitpod.
+* CHROME Developer tools
+  * For checking compatibilty, troubleshooting and editing code.
+* Am I Responsive
+  * Used to test responsiveness of the website at different screen sizes.
+* FONTAWESOME
+  * Used for the social media link icon in the footer of each page and triathlon icons on the discipline page and contact form.
+
 
 ## Development Environment
 * [Gitpod](https://gitpod.io): The online IDE I used to write my code in.
@@ -238,22 +251,6 @@ This was resolved by re-styling the entire form and by using flex in my style.cs
     height: 550px;
 }
 ```
-
-## PROGRAMS USED
-
-* GITPOD
-  * The IDE used to code this website.
-* GIT
-  * For version control, commiting and pushing to github.
-* GITHUB
-  * Used to store repositories, files and images pushed from gitpod.
-* CHROME Developer tools
-  * For checking compatibilty, troubleshooting and editing code.
-* Am I Responsive
-  * Used to test responsiveness of the website at different screen sizes.
-* FONTAWESOME
-  * Used for the social media link icon in the footer of each page and triathlon icons on the discipline page and contact form.
-
 
 # DEPLOYMENT
 
