@@ -167,7 +167,7 @@ table {
 }
 
 /* event dates styling */
-
+/* #events css was taken from the Code Institute, Love Running project  */
 #events {
     background-image: url('../images/mooragh_park_ramsey_isle_of_man.jpg');
     background-size: cover;
@@ -176,6 +176,7 @@ table {
     overflow: hidden;
 }
 
+/* #events div css was taken from the Code Institute, Love Running project  */
 #events div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .5);
